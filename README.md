@@ -23,7 +23,7 @@ Clone the repository:
 
 bash
 Copy code
-git clone https://github.com/ranmori/coffee-collection.git
+git clone https://github.com/ranmori/coffeecollection/tree/js-projects
 Navigate to the project directory
 
 bash
