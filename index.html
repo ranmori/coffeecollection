@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Collection</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    <div class="back-img"></div>
+    <div class="container">
+      <div class="header">
+        <h1>Our Collection</h1>
+        <p>Introducing our Coffee Collection, a selection of unique coffees from different roast types and origins, expertly roasted in small batches and shipped fresh weekly.</p>
+      </div>
+      <div class="filters">
+        <button class="filter-btn" onclick="filterProducts('all')">All Products</button>
+        <button class="filter-btn" onclick="filterProducts('available')">Available Now</button>
+      </div>
+      <div class="product-grid">
+        <div class="product-card" data-available="true">
+          <img src="https://images.unsplash.com/photo-1472973681244-f5bcc808ad47?q=80&w=1474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Cappuccino">
+          <h2>Cappuccino</h2>
+          <div class="product-details">
+            <span class="price">$3.50</span>
+            <span class="rating">⭐ 4.2 (25 votes)</span>
+          </div>
+        </div>
+        <div class="product-card" data-available="true">
+          <div class="product-img">
+            <img src="https://images.unsplash.com/photo-1634465748196-acd5b091f049?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Special"> </div>
+          <h2>Special</h2>
+          <div class="product-details">
+            <span class="price">$9.25</span>
+            <span class="rating">⭐ 4.5 (155 votes)</span>
+          </div>
+        </div>
+        <div class="product-card" data-available="true">
+          <div class="product-img">
+            <img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Coffee" style="height:150px;"> </div>
+          <h2>Coffee</h2>
+          <div class="product-details">
+            <span class="price">$3.50</span>
+            <span class="rating">⭐ 4.7 (25 votes)</span>
+          </div>
+        </div>
+        <div class="product-card" data-available="false">
+          <img src="https://images.unsplash.com/photo-1486122151631-4b5aaa3ac70d?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Espresso">
+          <h2>Espresso</h2>
+          <div class="product-details">
+            <span class="price">$3.50</span>
+            <span class="rating">⭐ 3.7 (23 votes)</span>
+          </div>
+        </div>
+        <div class="product-card" data-available="true">
+          <img src="https://images.unsplash.com/photo-1585494156145-1c60a4fe952b?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Latte">
+          <h2>Latte</h2>
+          <div class="product-details">
+            <span class="price">$4.50</span>
+            <span class="rating">⭐ 3.9 (55 votes)</span>
+          </div>
+        </div>
+        <div class="product-card" data-available="false">
+          <div class="product-img">
+            <img src="https://images.unsplash.com/photo-1608415123476-aca7a5da0abe?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Chocolate Coffee" style="height:150px;"> </div>
+          <h2>Chocolate Coffee</h2>
+          <div class="product-details">
+            <span class="price">$6.50</span>
+            <span class="rating">⭐ 4.8 (35 votes)</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+
+</html>
